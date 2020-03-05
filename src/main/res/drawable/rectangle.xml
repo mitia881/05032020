@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners
+        android:bottomLeftRadius="@dimen/corner_radius"
+        android:bottomRightRadius="@dimen/corner_radius"
+        android:topLeftRadius="@dimen/corner_radius"
+        android:topRightRadius="@dimen/corner_radius" />
+    <gradient
+        android:angle="270"
+        android:centerColor="@color/mid_flag_color"
+        android:endColor="@color/bot_flag_color"
+        android:startColor="@color/top_flag_color" />
+</shape>
